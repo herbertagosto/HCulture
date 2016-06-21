@@ -1,11 +1,14 @@
-# Project Title
+# HCulture
 
 Simplify culture implementation
 
 ## Getting Started
 
+```
 Culture h = new Culture();
+\\ your code here
 h.Dispose();
+```
 
 ### Prerequisities
 
@@ -13,13 +16,11 @@ h.Dispose();
 
 ### Installing
 
-## Running the tests
-
 ## Built With
 
 visual studio 2013
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+None
 
