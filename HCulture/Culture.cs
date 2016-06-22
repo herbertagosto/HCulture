@@ -66,22 +66,33 @@ namespace HCulture
         }
         private void ReturnOriginalCulture()
         {
-
             SetCulture(originalCulture);
         }
         #endregion
 
 
         #region DISPOSE
+        /// <summary>
+        /// Dispose when class instance was distruct
+        /// </summary>
+        ~Culture()
+        {
+            Dispose();
+        }
+
         bool disposed = false;
         SafeHandle handle = new SafeFileHandle(IntPtr.Zero, true);
-
+        /// <summary>
+        /// Dispose class. Returns the culture when class was initialize
+        /// </summary>
         public void Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-
+        /// <summary>
+        /// Dispose class. Returns the culture when class was initialize
+        /// </summary>
         protected virtual void Dispose(bool disposing)
         {
             if (disposed)
