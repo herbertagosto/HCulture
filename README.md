@@ -5,9 +5,9 @@ Simplify culture implementation
 ## Getting Started
 
 ```
-Culture h = new Culture();
+Culture culture = new Culture();
 \\ your code here
-h.Dispose();
+culture.Dispose();
 ```
 
 ### Prerequisities
