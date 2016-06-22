@@ -17,11 +17,13 @@ culture.Dispose();	// dispose and restore original culture
 
 ### Installing
 
+https://www.nuget.org/packages/HCulture/
+
 ## Built With
 
 visual studio 2013
 
 ## License
 
-None
+NONE. USE AT YOUR OWN RISK
 
