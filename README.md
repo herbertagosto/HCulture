@@ -6,7 +6,7 @@ Simplify culture implementation
 
 ```
 Culture culture = new Culture();
-\\ your code here
+// your code here
 culture.Dispose();
 ```
 
