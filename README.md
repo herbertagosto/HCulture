@@ -5,9 +5,10 @@ Simplify culture implementation
 ## Getting Started
 
 ```
-Culture culture = new Culture();
+// store current culture and set desired culture
+Culture culture = new Culture("en-US");
 // your code here
-culture.Dispose();
+culture.Dispose();	// dispose and restore original culture
 ```
 
 ### Prerequisities
