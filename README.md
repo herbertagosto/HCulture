@@ -1,4 +1,5 @@
 # HCulture
+[![Build status](https://ci.appveyor.com/api/projects/status/ust77qj6mq47nuer?svg=true)](https://ci.appveyor.com/project/herbertagosto/hculture)
 
 Simplify culture implementation
 
